@@ -1124,19 +1124,30 @@ img {
 
 @media (max-width: 768px) {
     body.contato-page .hero {
-        height: auto;
-        max-height: none;
+        height: 100vh; /* mantém a altura da tela */
+        max-height: 600px;
     }
 
     body.contato-page .hero-video {
-        height: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     body.contato-page .hero-overlay {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding: 0 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    body.contato-page .hero-overlay h1 {
+        font-size: 2rem;
     }
 }
+
 
 /* NOVO  -  NOVO  -  NOVO  -  NOVO */
 
