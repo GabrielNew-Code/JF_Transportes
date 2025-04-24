@@ -294,7 +294,6 @@ img {
     max-height: 600px;
     overflow: hidden;
     margin-top: 70px;
-    border: 2px solid red;  /* NOVO - NOVO - PARA TESTE */
 }
 
 .hero-overlay {
