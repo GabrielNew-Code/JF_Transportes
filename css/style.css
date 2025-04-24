@@ -1120,7 +1120,26 @@ img {
 }
 
 
+/* NOVO  -  NOVO  -  NOVO  -  NOVO */
 
+
+@media (max-width: 768px) {
+    body.contato-page .hero {
+        height: auto;
+        max-height: none;
+    }
+
+    body.contato-page .hero-video {
+        height: auto;
+    }
+
+    body.contato-page .hero-overlay {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+/* NOVO  -  NOVO  -  NOVO  -  NOVO */
 
 
 
