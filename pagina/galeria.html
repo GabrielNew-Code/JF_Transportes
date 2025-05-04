@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - JF Transportes</title>
+    <meta name="description" content="Galeria de fotos da JF Transportes, mostrando nossos serviços de Van Escolar, Van de Viagem e Van de Eventos.">
+    <link rel="icon" type="image/png" href="../media/img/web_site/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="../index.html" class="logo">
+                    <div class="logo-circle">
+                        <img src="../media/img/web_site/logo.png" alt="JF Transportes" class="logo-img" />
+                    </div>
+                    <span class="logo-text">JF Transportes</span>
+                </a>
+                <nav class="nav-desktop">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./sobre.html">Sobre</a></li>
+                        <li><a href="./galeria.html" class="active">Galeria</a></li>
+                        <li><a href="./excursoes.html">Excursões</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <nav class="nav-mobile">
+            <ul>
+                <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="./sobre.html"><i class="fa-solid fa-address-card"></i> Sobre</a></li>
+                <li><a href="./galeria.html" class="active"><i class="fas fa-images"></i> Galeria</a></li>
+                <li><a href="./excursoes.html"><i class="fas fa-road"></i> Excursões</a></li>
+                <li><a href="./contato.html"><i class="fas fa-envelope"></i> Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero">
+            <div class="page-hero-overlay">
+                <h1>Galeria de Fotos</h1>
+            </div>
+            <!-- 1200x400 -->
+            <img src="../media/img/web_site/renault_master_lateral.jpg" alt="JF Transportes Galeria" class="page-hero-img">
+        </section>
+
+        <!-- Gallery -->
+        <section class="section">
+            <div class="container">
+                <div class="gallery-filter">
+                    <button class="filter-btn active" data-filter="todos">Todos</button>
+                    <button class="filter-btn" data-filter="escolar">Van Escolar</button>
+                    <button class="filter-btn" data-filter="viagem">Van de Viagem</button>
+                    <button class="filter-btn" data-filter="evento">Van de Eventos</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="escolar">
+                        <div class="gallery-image">     <!-- 400x300 -->
+                            <img src="../media/img/web_site/sem_img.jpg" alt="Van escolar transportando crianças">
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Van escolar transportando crianças</h3>
+                            <p>Nossa van escolar oferece segurança e conforto para as crianças em seu trajeto diário.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="viagem">
+                        <div class="gallery-image">
+                            <img src="../media/img/web_site/sem_img.jpg" alt="Van de viagem em uma estrada panorâmica">
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Van de viagem em uma estrada panorâmica</h3>
+                            <p>Viagens confortáveis com paisagens deslumbrantes em nossas vans equipadas para longas distâncias.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="evento">
+                        <div class="gallery-image">
+                            <img src="../media/img/web_site/sem_img.jpg" alt="Van transportando artistas para um evento">
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Van transportando artistas para um evento</h3>
+                            <p>Transporte exclusivo para artistas, garantindo privacidade e pontualidade em eventos importantes.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="escolar">
+                        <div class="gallery-image">
+                            <img src="../media/img/web_site/sem_img.jpg" alt="Interior confortável da van escolar">
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Interior confortável da van escolar</h3>
+                            <p>Interior espaçoso e seguro, com assentos confortáveis e cintos de segurança para todos os alunos.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="viagem">
+                        <div class="gallery-image">
+                            <img src="../media/img/web_site/sem_img.jpg" alt="Grupo de turistas em frente à van de viagem">
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Grupo de turistas em frente à van de viagem</h3>
+                            <p>Grupos de turistas aproveitando nossas vans para passeios e excursões em grupo.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="evento">
+                        <div class="gallery-image">
+                            <img src="../media/img/web_site/sem_img.jpg" alt="Van estacionada em frente a um local de evento">
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Van estacionada em frente a um local de evento</h3>
+                            <p>Nossas vans proporcionam chegada com estilo e conforto para eventos especiais.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="escolar">
+                        <div class="gallery-image">
+                            <img src="../media/img/web_site/sem_img.jpg" alt="Crianças felizes entrando na van escolar">
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Crianças felizes entrando na van escolar</h3>
+                            <p>A alegria das crianças ao embarcar em nossas vans escolares com monitores atenciosos.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="viagem">
+                        <div class="gallery-image">
+                            <img src="../media/img/web_site/sem_img.jpg" alt="Van de viagem em um ponto turístico">
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Van de viagem em um ponto turístico</h3>
+                            <p>Explore pontos turísticos com conforto e segurança em nossas vans de viagem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="close-lightbox">&times;</span>
+            <img id="lightbox-img" src="/placeholder.svg" alt="">
+            <div class="lightbox-caption">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>JF Transportes</h3>
+                    <p>
+                        Oferecemos serviços de transporte com vans para escolas, viagens e eventos, 
+                        com segurança, conforto e pontualidade.
+                    </p>
+                    <div class="social-links">
+                        <a href="./contato.html" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/jftransp163/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5535998115729" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./sobre.html">Sobre Nós</a></li>
+                        <li><a href="./galeria.html">Galeria</a></li>
+                        <li><a href="./excursoes.html">Excursões</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Nossos Serviços</h3>
+                    <ul>
+                        <li><a href="./sobre.html">Van Escolar</a></li>
+                        <li><a href="./sobre.html">Van de Viagem</a></li>
+                        <li><a href="./sobre.html">Van de Eventos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contato</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> (35) 9 8883-9178</li>
+                        <li><i class="fab fa-whatsapp"></i> (35) 9 9811-5729</li>
+                        <li><i class="fas fa-envelope"></i> contato@jftransportes.com.br</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Alfenas - MG</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> JF Transportes. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../javascript/script.js"></script>
+</body>
+</html>
